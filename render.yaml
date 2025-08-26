@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: telegram-username-mobile-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python3 main.py"
+    plan: free
