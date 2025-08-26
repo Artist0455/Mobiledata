@@ -66,7 +66,7 @@ async def search_by_username(update: Update, context: ContextTypes.DEFAULT_TYPE)
         await update.message.reply_text("❌ Not found in database. Use /add to save it.")
 
 # --- Main ---
-TOKEN = "YOUR_BOT_TOKEN_HERE"
+TOKEN = "8479080326:AAG_ltoHfV21q1vGa5u4T-gLmL6BzfwKLDQ"
 
 app = Application.builder().token(TOKEN).build()
 app.add_handler(CommandHandler("start", start))
